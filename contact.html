@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | A3S DIGITECH</title>
+<meta name="description" content="A3S DIGITECH is a software, web and mobile app development studio in India. Makers of Aarogya Connect, a citizen health app for India.">
+<style>
+:root{--bg:#f7f9fb;--card:#fff;--ink:#14212b;--mute:#52616c;--brand:#0b6e6e;--brand2:#0a4f7a;--line:#dfe6ea}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1a22;--card:#152632;--ink:#eaf1f5;--mute:#a6b6c1;--brand:#3cc4b8;--brand2:#5aa9e0;--line:#243846}}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+a{color:var(--brand)}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:800;letter-spacing:.5px;font-size:20px;color:var(--ink);text-decoration:none}
+.logo span{color:var(--brand)}
+nav a{margin-left:18px;text-decoration:none;color:var(--mute);font-size:15px}
+nav a:hover{color:var(--brand)}
+.hero{padding:72px 0 56px;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff}
+.hero h1{font-size:clamp(28px,5vw,44px);line-height:1.2;margin:0 0 14px}
+.hero p{max-width:640px;font-size:18px;margin:0 0 24px;opacity:.95}
+.btn{display:inline-block;background:#fff;color:#0a4f7a;padding:12px 22px;border-radius:10px;font-weight:700;text-decoration:none}
+section{padding:56px 0}
+h2{font-size:28px;margin:0 0 8px}
+.lead{color:var(--mute);margin:0 0 28px;max-width:680px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--mute);font-size:15px}
+.tag{display:inline-block;font-size:12px;font-weight:700;padding:3px 10px;border-radius:99px;background:var(--line);color:var(--mute);margin-bottom:10px}
+.tag.live{background:#d7f3e3;color:#0b5d33}
+@media (prefers-color-scheme:dark){.tag.live{background:#12452f;color:#a7f0c9}}
+ul.plain{padding-left:18px;color:var(--mute);margin:10px 0 0}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--mute);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+@media (max-width:560px){nav a{margin-left:12px;font-size:14px}}
+form{display:grid;gap:14px;max-width:560px}label{font-weight:600;font-size:14px}input,select,textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}textarea{min-height:150px}button{background:var(--brand);color:#fff;border:0;padding:13px 22px;border-radius:10px;font:inherit;font-weight:700;cursor:pointer}.note{color:var(--mute);font-size:14px}</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="logo" href="index.html">A3S <span>DIGITECH</span></a>
+  <nav><a href="index.html#services">Services</a><a href="index.html#products">Products</a><a href="index.html#about">About</a><a href="contact.html">Contact</a></nav>
+</div></header>
+
+<main><section><div class="wrap">
+  <h2>Contact us</h2>
+  <p class="lead">Tell us what you need. Pressing Send opens your email app with the message ready to send to A3S DIGITECH. Nothing is stored on this website.</p>
+  <form id="f">
+    <div><label for="n">Your name</label><input id="n" required autocomplete="name"></div>
+    <div><label for="e">Your email</label><input id="e" type="email" required autocomplete="email"></div>
+    <div><label for="t">Topic</label><select id="t"><option>Project enquiry</option><option>Aarogya Connect support</option><option>Privacy question</option><option>Other</option></select></div>
+    <div><label for="m">Message</label><textarea id="m" required></textarea></div>
+    <button type="submit">Send</button>
+    <p class="note">Or write directly to <a href="mailto:a3sdigitech@gmail.com">a3sdigitech@gmail.com</a>. Please do not send medical records or health details by email.</p>
+  </form>
+</div></section></main>
+<footer><div class="wrap"><span>&copy; 2026 A3S DIGITECH. All rights reserved.</span><span><a href="https://shahnawazrathod86.github.io/aarogya-connect-privacy/">Aarogya Connect privacy policy</a></span></div></footer>
+<script>
+document.getElementById('f').addEventListener('submit',function(ev){ev.preventDefault();
+var g=function(i){return document.getElementById(i).value.trim()};
+var body='Name: '+g('n')+'\nEmail: '+g('e')+'\n\n'+g('m');
+location.href='mailto:a3sdigitech@gmail.com?subject='+encodeURIComponent('[Website] '+g('t'))+'&body='+encodeURIComponent(body);});
+</script>
+</body></html>
