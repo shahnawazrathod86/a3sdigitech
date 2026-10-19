@@ -5,53 +5,94 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>A3S DIGITECH | Software, Web and Mobile App Development</title>
 <meta name="description" content="A3S DIGITECH is a software, website and mobile app development studio in Ahmedabad, India, and the publisher of Aarogya Connect, Lumelo, PaisaSet and DutyBook.">
+<meta name="theme-color" content="#060d1b">
 <link rel="canonical" href="https://a3sdigitech.com/">
+<meta property="og:site_name" content="A3S DIGITECH">
 <meta property="og:title" content="A3S DIGITECH | Software, Web and Mobile App Development">
 <meta property="og:description" content="A3S DIGITECH is a software, website and mobile app development studio in Ahmedabad, India, and the publisher of Aarogya Connect, Lumelo, PaisaSet and DutyBook.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://a3sdigitech.com/">
+<meta property="og:image" content="https://a3sdigitech.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"A3S DIGITECH","url":"https://a3sdigitech.com/","email":"a3sdigitech@gmail.com","description":"Software, website and mobile app development studio in India.","address":{"@type":"PostalAddress","addressLocality":"Ahmedabad","addressRegion":"Gujarat","addressCountry":"IN"}}</script>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css?v=2">
+<script defer src="script.js?v=2"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"A3S DIGITECH","url":"https://a3sdigitech.com/","logo":"https://a3sdigitech.com/icon-512.png","email":"a3sdigitech@gmail.com","description":"Software, website and mobile app development studio in India.","address":{"@type":"PostalAddress","addressLocality":"Ahmedabad","addressRegion":"Gujarat","addressCountry":"IN"}}</script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header><div class="wrap">
-<a class="logo" href="index.html"><span class="mark">A3S</span><span>A3S <span class="d">DIGITECH</span></span></a>
-<nav><a href="index.html" class=on>Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="apps.html">Apps</a><a href="contact.html">Contact</a></nav>
+<a class="logo" href="index.html" aria-label="A3S DIGITECH home"><img src="logo-mark.png" alt="" width="55" height="38"><span>A3S <span class="d">DIGITECH</span></span></a>
+<button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+<nav id="nav"><a href="index.html" class=on aria-current=page>Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="apps.html">Apps</a><a class="cta" href="contact.html">Contact</a></nav>
 </div></header>
-<main>
-<div class="hero"><div class="wrap"><h1>Software, websites and mobile apps, built with care.</h1><p>A3S DIGITECH is a software and app development company in Ahmedabad, India. We build useful, privacy-first apps and websites for people and businesses.</p><a class="btn" href="contact.html">Talk to us</a><a class="btn ghost" href="apps.html">See our apps</a></div></div>
+<main id="main">
+<div class="hero home"><div class="wrap hero-grid">
+<div>
+<h1>Software, websites and mobile apps, built with care.</h1>
+<p>A3S DIGITECH is a software and app development company in Ahmedabad, India. We build useful, privacy-first apps and websites for people and businesses.</p>
+<a class="btn" href="contact.html">Talk to us</a><a class="btn ghost" href="apps.html">See our apps</a>
+<div class="chips"><span class="chip">Ahmedabad, India</span><span class="chip">Privacy-first apps</span><span class="chip">Hindi, Gujarati and more</span></div>
+</div>
+<div class="hero-art">
+<div class="halo"></div>
+<svg class="trace" viewBox="0 0 520 420" preserveAspectRatio="xMidYMin meet" aria-hidden="true"><defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2ee6f5"/><stop offset="1" stop-color="#8b6cff"/></linearGradient></defs><path pathLength="1" d="M0 24H92l34 34h86"/><path pathLength="1" d="M520 34H428l-32 32h-80"/><path pathLength="1" d="M0 292h44l26-26"/><path pathLength="1" d="M520 330h-46l-26 26"/><circle cx="212" cy="58" r="4"/><circle cx="316" cy="66" r="4"/><circle cx="70" cy="266" r="4"/><circle cx="448" cy="356" r="4"/></svg>
+<img class="logo-big" src="logo.png" alt="A3S DIGITECH, IT services and app development" width="500" height="164">
+<div class="status" role="group" aria-label="Our apps by status">
+<div class="t"><b>In testing</b><span>Aarogya Connect</span></div>
+<div class="s"><b>Coming soon</b><span>Lumelo, PaisaSet, DutyBook</span></div>
+<div class="v"><b>In development</b><span>SocietyDesk, NyayaKosh AI</span></div>
+</div>
+</div>
+</div></div>
 
-<section><div class="wrap">
+<section class="tech"><div class="wrap"><p>We build with</p><div class="chips"><span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">React</span><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Supabase</span><span class="chip">PostgreSQL</span></div></div></section>
+
+<section id="services"><div class="wrap">
 <h2>What we do</h2>
 <p class="lead">From an idea to a working product, on phones and on the web.</p>
-<div class="grid"><div class="card"><div class="icon">&#x1F4F1;</div><h3>Mobile app development</h3><p>Android and iOS apps built with Flutter, with a focus on clean design, privacy and everyday reliability. We take apps from idea to Play Store release.</p></div><div class="card"><div class="icon">&#x1F310;</div><h3>Website development</h3><p>Fast, responsive business websites and web apps that look right on any screen, with hosting and domain setup.</p></div><div class="card"><div class="icon">&#x2699;&#xFE0F;</div><h3>Custom software</h3><p>Tools, dashboards and back-office systems tailored to how your team actually works, from small utilities to full workflows.</p></div><div class="card"><div class="icon">&#x1F512;</div><h3>Privacy and compliance</h3><p>Apps designed for India's DPDP Act 2023 and Google Play policies, with clear privacy policies and data-safety disclosures.</p></div><div class="card"><div class="icon">&#x1F5E3;&#xFE0F;</div><h3>Indian language apps</h3><p>Interfaces in Hindi, Gujarati, Marathi, Tamil, Telugu and English, so your users can work in the language they know.</p></div><div class="card"><div class="icon">&#x1F6E0;&#xFE0F;</div><h3>Support and upkeep</h3><p>Fixes, updates and store releases after launch, so your product keeps working.</p></div></div>
-<p style="margin-top:22px"><a href="services.html">More about our services &rarr;</a></p>
-</div></section>
-<section class="alt"><div class="wrap">
-<h2>Our apps</h2>
-<p class="lead">Products we design, build and publish ourselves, for people and families in India.</p>
-<div class="grid"><div class="card" id="aarogya"><div class="icon">&#x1FA7A;</div><span class="tag test">In testing</span><h3>Aarogya Connect</h3><p><em>Your Health. Your Services. Your Connect.</em></p><p style="margin-top:8px">A citizen health companion for India. Find hospitals, PHCs, CHCs, pharmacies, blood banks and AB-PMJAY empanelled hospitals near you, keep health reminders, and track readings like BP, glucose and BMI. My Family Health keeps a private profile, medicine reminders and an encrypted document vault for each family member.</p><ul class="plain"><li>English, Hindi and Gujarati</li><li>Health records stay on your phone</li><li>General information only, not medical advice</li></ul><div class="links"><a href="apps.html#aarogya">Details</a><a href="https://shahnawazrathod86.github.io/aarogya-connect-privacy/">Privacy policy</a></div></div><div class="card" id="lumelo"><div class="icon">&#x1F31F;</div><span class="tag soon">Coming soon</span><h3>Lumelo</h3><p><em>Kids learning games for ages 2 to 6.</em></p><p style="margin-top:8px">A playful preschool app with letters, numbers, shapes, colours, animals, early maths, stories, quizzes, drawing and games, plus My World (early science and community helpers) and Life Skills (hygiene, feelings, staying safe).</p><ul class="plain"><li>No accounts, works offline</li><li>Read-aloud with on-device text-to-speech</li><li>Built for a parent or guardian to be nearby</li></ul><div class="links"><a href="apps.html#lumelo">Details</a><a href="lumelo-privacy.html">Privacy policy</a></div></div><div class="card" id="paisaset"><div class="icon">&#x1F4B0;</div><span class="tag soon">Coming soon</span><h3>PaisaSet</h3><p><em>Har Kharch Ka Hisaab, Har Mahine Bachat.</em></p><p style="margin-top:8px">An offline household budget and expense tracker for Indian families. A Safe Daily Spend view shows how much you can spend each day to last the month, with Cash vs UPI breakdowns, PDF statements and Excel/CSV exports made on the phone.</p><ul class="plain"><li>100% offline, no internet permission</li><li>English, Hindi, Marathi, Telugu, Tamil, Gujarati</li><li>One-tap Delete All Data</li></ul><div class="links"><a href="apps.html#paisaset">Details</a><a href="paisaset-privacy.html">Privacy policy</a></div></div><div class="card" id="dutybook"><div class="icon">&#x1F4D2;</div><span class="tag soon">Coming soon</span><h3>DutyBook</h3><p><em>Every Duty Counts. Every Rupee Matters.</em></p><p style="margin-top:8px">A staff attendance, salary and vendor ledger for Indian households. Track maids, cooks, drivers and other household help, calculate wages and advances, and keep a khata for milk, water and laundry deliveries.</p><ul class="plain"><li>Offline, no account needed</li><li>No ads and no tracking</li><li>Multiple Indian languages</li></ul><div class="links"><a href="apps.html#dutybook">Details</a><a href="dutybook-privacy.html">Privacy policy</a></div></div><div class="card" id="societydesk"><div class="icon">&#x1F3E2;</div><span class="tag dev">In development</span><h3>SocietyDesk</h3><p><em>Your Society. One Smart Platform.</em></p><p style="margin-top:8px">A residential society management platform for Indian apartment communities. Residents pay maintenance, raise complaints, read notices and pre-approve visitors; admins run billing and reports; guards get a simple gate screen.</p><ul class="plain"><li>Each society's data kept separate</li><li>Resident, admin, accountant and guard roles</li><li>Android first</li></ul><div class="links"><a href="apps.html#societydesk">Details</a></div></div><div class="card" id="nyayakosh"><div class="icon">&#x2696;&#xFE0F;</div><span class="tag dev">In development</span><h3>NyayaKosh AI</h3><p><em>Supreme Court judgments, made searchable.</em></p><p style="margin-top:8px">Source-labelled search over Supreme Court of India judgments, plain-language citizen guides in English and Hindi, and a cross-reference of old and new criminal-law sections. Information only, not legal advice.</p><ul class="plain"><li>Search by citation, case number, year or judge</li><li>Every result clearly labels its source</li><li>No generated legal answers</li></ul><div class="links"><a href="apps.html#nyayakosh">Details</a></div></div></div>
-</div></section>
-<section><div class="wrap two">
-<div><h2>About A3S DIGITECH</h2>
-<p class="lead">A3S DIGITECH is a registered Indian micro enterprise based in Ahmedabad, Gujarat. We build software, websites and mobile apps, and publish our own apps for health, learning, household finance, housing societies and legal information.</p>
-<p><a class="btn solid" href="about.html">About us</a></p></div>
-<div class="grid" style="grid-template-columns:1fr">
-<div class="card"><h3>Privacy first</h3><p>We collect as little data as we can and say plainly what leaves your device and why.</p></div>
-<div class="card"><h3>Built for India</h3><p>Apps that work for Indian users, with local languages and local services in mind.</p></div>
-<div class="card"><h3>Honest software</h3><p>We describe what our products do and do not do, and we fix problems when we find them.</p></div>
-</div></div></section>
-<section class="alt"><div class="wrap">
-<h2>Let's build something</h2>
-<p class="lead">For project enquiries, app support or privacy questions, write to us at <a href="mailto:a3sdigitech@gmail.com">a3sdigitech@gmail.com</a>.</p>
-<a class="btn solid" href="contact.html">Contact us</a>
+<div class="bento"><div class="card b4 feat"><div><div class="icon"><svg class="ic" aria-hidden="true"><use href="icons.svg#phone"/></svg></div><h3>Mobile app development</h3><p>Android and iOS apps built with Flutter, with a focus on clean design, privacy and everyday reliability. We take apps from idea to Play Store release.</p></div><svg class="art" viewBox="0 0 150 200" aria-hidden="true"><defs><linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2ee6f5"/><stop offset="1" stop-color="#8b6cff"/></linearGradient></defs><rect x="25" y="6" width="100" height="188" rx="20" fill="#0a1630" stroke="url(#pg)" stroke-width="2"/><rect x="58" y="14" width="34" height="6" rx="3" fill="#1a2c52"/><rect x="38" y="34" width="74" height="40" rx="10" fill="url(#pg)" opacity=".85"/><rect x="38" y="84" width="74" height="12" rx="6" fill="#16294d"/><rect x="38" y="104" width="52" height="12" rx="6" fill="#16294d"/><circle cx="47" cy="140" r="9" fill="#16294d"/><rect x="62" y="134" width="50" height="12" rx="6" fill="#16294d"/><circle cx="47" cy="168" r="9" fill="#16294d"/><rect x="62" y="162" width="38" height="12" rx="6" fill="#16294d"/></svg></div><div class="card b2"><div class="icon"><svg class="ic" aria-hidden="true"><use href="icons.svg#globe"/></svg></div><h3>Website development</h3><p>Fast, responsive business websites and web apps that look right on any screen, with hosting and domain setup.</p></div><div class="card b2"><div class="icon"><svg class="ic" aria-hidden="true"><use href="icons.svg#code"/></svg></div><h3>Custom software</h3><p>Tools, dashboards and back-office systems tailored to how your team actually works, from small utilities to full workflows.</p></div><div class="card b2"><div class="icon"><svg class="ic" aria-hidden="true"><use href="icons.svg#shield"/></svg></div><h3>Privacy and compliance</h3><p>Apps designed for India's DPDP Act 2023 and Google Play policies, with clear privacy policies and data-safety disclosures.</p></div><div class="card b2"><div class="icon"><svg class="ic" aria-hidden="true"><use href="icons.svg#chat"/></svg></div><h3>Indian language apps</h3><p>Interfaces in Hindi, Gujarati, Marathi, Tamil, Telugu and English, so your users can work in the language they know.</p></div><div class="card b6 wide"><div class="icon"><svg class="ic" aria-hidden="true"><use href="icons.svg#lifebuoy"/></svg></div><div><h3>Support and upkeep</h3><p>Fixes, updates and store releases after launch, so your product keeps working.</p></div></div></div>
+<p style="margin-top:26px"><a href="services.html">More about our services</a></p>
 </div></section>
 
+<section class="alt" id="apps"><div class="wrap">
+<h2>Our apps</h2>
+<p class="lead">Products we design, build and publish ourselves, for people and families in India.</p>
+<div class="apps"><article class="app a-aarogya" id="aarogya"><div class="thumb"><span class="tag test">In testing</span><svg class="glyph" viewBox="0 0 24 24" aria-hidden="true"><use href="icons.svg#pulse"/></svg><h3>Aarogya Connect</h3></div><div class="body"><p><em>Your Health. Your Services. Your Connect.</em></p><p>A citizen health companion for India. Find hospitals, PHCs, CHCs, pharmacies, blood banks and AB-PMJAY empanelled hospitals near you, keep health reminders, and track readings like BP, glucose and BMI. My Family Health keeps a private profile, medicine reminders and an encrypted document vault for each family member.</p><ul class="plain"><li>English, Hindi and Gujarati</li><li>Health records stay on your phone</li><li>General information only, not medical advice</li></ul><div class="links"><a href="apps.html#aarogya">Details</a><a href="https://shahnawazrathod86.github.io/aarogya-connect-privacy/">Privacy policy</a></div></div></article><article class="app a-lumelo" id="lumelo"><div class="thumb"><span class="tag soon">Coming soon</span><svg class="glyph" viewBox="0 0 24 24" aria-hidden="true"><use href="icons.svg#star"/></svg><h3>Lumelo</h3></div><div class="body"><p><em>Kids learning games for ages 2 to 6.</em></p><p>A playful preschool app with letters, numbers, shapes, colours, animals, early maths, stories, quizzes, drawing and games, plus My World (early science and community helpers) and Life Skills (hygiene, feelings, staying safe).</p><ul class="plain"><li>No accounts, works offline</li><li>Read-aloud with on-device text-to-speech</li><li>Built for a parent or guardian to be nearby</li></ul><div class="links"><a href="apps.html#lumelo">Details</a><a href="lumelo-privacy.html">Privacy policy</a></div></div></article><article class="app a-paisaset" id="paisaset"><div class="thumb"><span class="tag soon">Coming soon</span><svg class="glyph" viewBox="0 0 24 24" aria-hidden="true"><use href="icons.svg#rupee"/></svg><h3>PaisaSet</h3></div><div class="body"><p><em>Har Kharch Ka Hisaab, Har Mahine Bachat.</em></p><p>An offline household budget and expense tracker for Indian families. A Safe Daily Spend view shows how much you can spend each day to last the month, with Cash vs UPI breakdowns, PDF statements and Excel/CSV exports made on the phone.</p><ul class="plain"><li>100% offline, no internet permission</li><li>English, Hindi, Marathi, Telugu, Tamil, Gujarati</li><li>One-tap Delete All Data</li></ul><div class="links"><a href="apps.html#paisaset">Details</a><a href="paisaset-privacy.html">Privacy policy</a></div></div></article><article class="app a-dutybook" id="dutybook"><div class="thumb"><span class="tag soon">Coming soon</span><svg class="glyph" viewBox="0 0 24 24" aria-hidden="true"><use href="icons.svg#book"/></svg><h3>DutyBook</h3></div><div class="body"><p><em>Every Duty Counts. Every Rupee Matters.</em></p><p>A staff attendance, salary and vendor ledger for Indian households. Track maids, cooks, drivers and other household help, calculate wages and advances, and keep a khata for milk, water and laundry deliveries.</p><ul class="plain"><li>Offline, no account needed</li><li>No ads and no tracking</li><li>Multiple Indian languages</li></ul><div class="links"><a href="apps.html#dutybook">Details</a><a href="dutybook-privacy.html">Privacy policy</a></div></div></article><article class="app a-society" id="societydesk"><div class="thumb"><span class="tag dev">In development</span><svg class="glyph" viewBox="0 0 24 24" aria-hidden="true"><use href="icons.svg#building"/></svg><h3>SocietyDesk</h3></div><div class="body"><p><em>Your Society. One Smart Platform.</em></p><p>A residential society management platform for Indian apartment communities. Residents pay maintenance, raise complaints, read notices and pre-approve visitors; admins run billing and reports; guards get a simple gate screen.</p><ul class="plain"><li>Each society's data kept separate</li><li>Resident, admin, accountant and guard roles</li><li>Android first</li></ul><div class="links"><a href="apps.html#societydesk">Details</a></div></div></article><article class="app a-nyaya" id="nyayakosh"><div class="thumb"><span class="tag dev">In development</span><svg class="glyph" viewBox="0 0 24 24" aria-hidden="true"><use href="icons.svg#scales"/></svg><h3>NyayaKosh AI</h3></div><div class="body"><p><em>Supreme Court judgments, made searchable.</em></p><p>Source-labelled search over Supreme Court of India judgments, plain-language citizen guides in English and Hindi, and a cross-reference of old and new criminal-law sections. Information only, not legal advice.</p><ul class="plain"><li>Search by citation, case number, year or judge</li><li>Every result clearly labels its source</li><li>No generated legal answers</li></ul><div class="links"><a href="apps.html#nyayakosh">Details</a></div></div></article></div>
+</div></section>
+
+<section><div class="wrap">
+<h2>How a project runs</h2>
+<p class="lead">Simple steps, with a working build you can try at every stage.</p>
+<div class="steps"><div class="step"><h3>Understand</h3><p>We talk through what you need, who will use it and what success looks like.</p></div><div class="step"><h3>Design</h3><p>Screens and flows you can review before any heavy building starts.</p></div><div class="step"><h3>Build and test</h3><p>Regular test builds on real devices, with fixes as we go.</p></div><div class="step"><h3>Launch and support</h3><p>Play Store or web release, privacy policy and store listing, then updates after launch.</p></div></div>
+</div></section>
+
+<section class="alt"><div class="wrap two">
+<div><h2>About A3S DIGITECH</h2>
+<p class="lead">A3S DIGITECH is a registered Indian micro enterprise based in Ahmedabad, Gujarat. We build software, websites and mobile apps, and publish our own apps for health, learning, household finance, housing societies and legal information.</p>
+<a class="btn" href="about.html">About us</a></div>
+<div class="pillars">
+<div class="pillar"><h3>Privacy first</h3><p>We collect as little data as we can and say plainly what leaves your device and why.</p></div>
+<div class="pillar"><h3>Built for India</h3><p>Apps that work for Indian users, with local languages and local services in mind.</p></div>
+<div class="pillar"><h3>Honest software</h3><p>We describe what our products do and do not do, and we fix problems when we find them.</p></div>
+</div>
+</div></section>
+
+<section><div class="wrap"><div class="cta-band">
+<h2>Let's build something</h2>
+<p class="lead">For project enquiries, app support or privacy questions, write to us at <a href="mailto:a3sdigitech@gmail.com">a3sdigitech@gmail.com</a>.</p>
+<a class="btn" href="contact.html">Contact us</a><a class="btn ghost" href="mailto:a3sdigitech@gmail.com">Email us</a>
+</div></div></section>
 </main>
 <footer><div class="wrap">
 <div class="cols">
-<div><h4>A3S DIGITECH</h4>Software, websites and mobile apps, built in India.<br>Ahmedabad, Gujarat, India<br><a href="mailto:a3sdigitech@gmail.com" style="display:inline">a3sdigitech@gmail.com</a></div>
+<div><a class="brand" href="index.html"><img src="logo-mark.png" alt="" width="61" height="42"><span>A3S <span class="d">DIGITECH</span></span></a>Software, websites and mobile apps, built in India.<br>Ahmedabad, Gujarat, India<br><a href="mailto:a3sdigitech@gmail.com" style="display:inline">a3sdigitech@gmail.com</a></div>
 <div><h4>Company</h4><a href="about.html">About us</a><a href="services.html">Services</a><a href="apps.html">Our apps</a><a href="contact.html">Contact</a></div>
 <div><h4>Legal</h4><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></div>
 <div><h4>App privacy policies</h4><a href="https://shahnawazrathod86.github.io/aarogya-connect-privacy/">Aarogya Connect</a><a href="lumelo-privacy.html">Lumelo</a><a href="paisaset-privacy.html">PaisaSet</a><a href="dutybook-privacy.html">DutyBook</a></div>
