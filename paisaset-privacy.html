@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PaisaSet Privacy Policy | A3S DIGITECH</title>
+<meta name="description" content="PaisaSet Privacy Policy for the app published by A3S DIGITECH.">
+<link rel="canonical" href="https://a3sdigitech.pages.dev/paisaset-privacy.html">
+<meta property="og:title" content="PaisaSet Privacy Policy | A3S DIGITECH">
+<meta property="og:description" content="PaisaSet Privacy Policy for the app published by A3S DIGITECH.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://a3sdigitech.pages.dev/paisaset-privacy.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="index.html"><span class="mark">A3S</span><span>A3S <span class="d">DIGITECH</span></span></a>
+<nav><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="apps.html">Apps</a><a href="contact.html">Contact</a></nav>
+</div></header>
+<main>
+
+<section><div class="wrap doc"><h1 id="privacy-policy-for-paisaset">Privacy Policy for PaisaSet</h1>
+<p><strong>Last Updated:</strong> October 2026<br />
+<strong>Developer &amp; Legal Publisher:</strong> A3S Digitech<br />
+<strong>Product Name:</strong> PaisaSet<br />
+<strong>Application ID:</strong>
+<code>com.a3sdigitech.ghar_ka_budget</code><br />
+<strong>Contact Email:</strong> <a
+href="mailto:a3sdigitech@gmail.com"><span>a3sdigitech@gmail.com</span></a><br />
+<strong>Applicable Frameworks:</strong> Digital Personal Data Protection
+(DPDP) Act 2023 (India) &amp; Google Play Store Developer Policy</p>
+<hr />
+<h2 id="1-introduction--core-philosophy">1. Introduction &amp; Core
+Philosophy</h2>
+<p>Welcome to <strong>PaisaSet</strong>, an offline-first domestic
+financial tracking and household budget management application designed,
+developed, and published by <strong>A3S Digitech</strong>.</p>
+<p>Our core privacy commitment is straightforward:<br />
+<strong>PaisaSet is built from the ground up to respect your financial
+sovereignty. All your income records, expense entries, budgets, and
+savings goals stay strictly on your personal device. A3S Digitech does
+not operate remote servers for PaisaSet, does not collect personal
+identity information, and does not sell or share any user data with
+third parties.</strong></p>
+<hr />
+<h2 id="2-information-we-do-not-collect">2. Information We Do NOT
+Collect</h2>
+<p>To maintain 100% user anonymity and privacy, PaisaSet operates with
+<strong>Zero Data Collection</strong>:</p>
+<ul>
+<li><strong>No User Identity:</strong> We do not collect your name,
+phone number, email address, physical address, or national identifiers
+(such as Aadhaar or PAN).</li>
+<li><strong>No Financial Credentials:</strong> We do not connect to your
+bank accounts, credit cards, UPI IDs, or net-banking services. We never
+ask for or process account numbers, passwords, PINs, or OTPs.</li>
+<li><strong>No SMS or Notification Scraping:</strong> We do not read
+your SMS messages, personal communications, or device notifications. All
+expense and income entries are manually entered by you.</li>
+<li><strong>No Device Identifiers or Telemetry:</strong> We do not
+access or collect Advertising IDs (GAID), IMEI numbers, MAC addresses,
+IP addresses, or device serial numbers.</li>
+<li><strong>No Precise Location:</strong> We do not request or track GPS
+or network location.</li>
+<li><strong>No Third-Party Analytics Trackers:</strong> We have zero
+integration with third-party analytical SDKs (such as Google Analytics
+for Firebase, Facebook SDK, AppsFlyer, or Mixpanel).</li>
+</ul>
+<hr />
+<h2 id="3-how-your-data-is-handled-and-stored">3. How Your Data is
+Handled and Stored</h2>
+<ul>
+<li><strong>Local Storage in App Sandbox:</strong> All transaction
+records, categories, monthly budgets, and savings goals are stored
+solely in an isolated SQLite database located in Android's private
+internal application sandbox
+(<code>/data/data/com.a3sdigitech.ghar_ka_budget/databases/</code>).</li>
+<li><strong>Operating System Isolation:</strong> On standard Android
+devices, the Android application sandbox prevents other applications
+from inspecting, reading, or tampering with PaisaSet's database
+files.</li>
+<li><strong>Zero Remote Transmission:</strong> PaisaSet does not declare
+or request the <code>android.permission.INTERNET</code> permission in
+its Android manifest. The application has no technical capability to
+transmit data across the internet.</li>
+</ul>
+<hr />
+<h2 id="4-permissions-used-by-paisaset">4. Permissions Used by
+PaisaSet</h2>
+<p>PaisaSet adheres strictly to the principle of minimal privilege. The
+application requests only the minimum permissions necessary for local
+offline utility:</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Permission</th>
+<th style="text-align: left;">Technical Name</th>
+<th style="text-align: left;">Purpose &amp; Scope</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Storage Access Framework
+(SAF)</strong></td>
+<td style="text-align: left;">System File Picker
+(<code>GET_CONTENT</code> / <code>CREATE_DOCUMENT</code>)</td>
+<td style="text-align: left;">Used exclusively when you choose to export
+your records to Excel/PDF or create a local JSON backup. Access is
+restricted solely to the user-selected file destination.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Notifications
+(Optional)</strong></td>
+<td style="text-align: left;"><code>POST_NOTIFICATIONS</code></td>
+<td style="text-align: left;">Used only to deliver optional local daily
+budget reminders or recurring expense alerts. All alarms and
+notifications are scheduled locally on your device via Android's
+AlarmManager.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5-data-export-backup-and-user-portability">5. Data Export,
+Backup, and User Portability</h2>
+<ul>
+<li><strong>User-Initiated Exports:</strong> You can export your
+financial entries to Excel (<code>.xlsx</code>), PDF
+(<code>.pdf</code>), or structured JSON (<code>.json</code>) at any time
+via the Export &amp; Backup screen.</li>
+<li><strong>Destination Security:</strong> Once an export or backup file
+is created or shared outside the application (e.g., saved to your device
+Downloads folder, external SD card, or sent via third-party apps like
+email or WhatsApp), that exported file is subject to the security
+policies and controls of the selected destination. We advise keeping
+exported financial files secure.</li>
+<li><strong>Restore Capability:</strong> You may restore your records
+using a valid PaisaSet JSON backup file on your own device.</li>
+</ul>
+<hr />
+<h2 id="6-data-deletion-and-retention">6. Data Deletion and
+Retention</h2>
+<p>You maintain absolute sovereignty and control over your financial
+records:</p>
+<ul>
+<li><strong>In-App Self-Service Wipe:</strong> You can immediately purge
+all transactions, budgets, recurring items, and savings goals at any
+time by navigating to <strong>Settings → Security &amp; Data Management
+→ Delete All Data</strong>. This action executes an irreversible SQL
+truncation of all local database tables.</li>
+<li><strong>Application Uninstall:</strong> Uninstalling PaisaSet from
+your Android device permanently and automatically deletes the private
+application sandbox, including the SQLite database and all cached
+records.</li>
+<li><strong>Remote Data Retention:</strong> Because A3S Digitech does
+not collect or transmit your records to remote servers, we maintain zero
+copies of your data.</li>
+</ul>
+<hr />
+<h2 id="7-third-party-services-and-advertisements">7. Third-Party
+Services and Advertisements</h2>
+<ul>
+<li><strong>Zero Advertising:</strong> PaisaSet contains no banner ads,
+interstitial ads, video rewards, or ad network SDKs (such as Google
+AdMob or Unity Ads).</li>
+<li><strong>Zero Third-Party Data Sharing:</strong> We do not sell,
+rent, trade, or distribute your data to brokers, marketing agencies,
+financial institutions, or any commercial entities.</li>
+</ul>
+<hr />
+<h2 id="8-childrens-privacy">8. Children’s Privacy</h2>
+<p>PaisaSet is a general-purpose domestic budgeting tool and does not
+solicit, target, or collect personal information from children under the
+age of 18 (or 13 depending on local jurisdiction). Because no personal
+information is collected from any user, PaisaSet complies with COPPA and
+the DPDP Act 2023 requirements regarding minors.</p>
+<hr />
+<h2
+id="9-alignment-with-indias-digital-personal-data-protection-dpdp-act-2023">9.
+Alignment with India's Digital Personal Data Protection (DPDP) Act,
+2023</h2>
+<p>PaisaSet has been engineered in accordance with the key principles of
+India's Digital Personal Data Protection Act, 2023:</p>
+<ul>
+<li><strong>Purpose Limitation &amp; Minimization (Section
+8(1)):</strong> No personal identifying data is collected or
+processed.</li>
+<li><strong>Storage Limitation &amp; Erasure (Section 12):</strong> All
+local data can be erased directly by the user at will.</li>
+<li><strong>Accountability &amp; Integrity (Section 8(5)):</strong> Data
+is contained exclusively within the user's sovereign Android hardware
+sandbox.</li>
+<li><strong>Grievance Redressal Mechanism:</strong> We provide clear
+developer contact information for any inquiries regarding data
+protection.</li>
+</ul>
+<hr />
+<h2 id="10-google-play-store-data-safety-declaration">10. Google Play
+Store Data Safety Declaration</h2>
+<p>In accordance with Google Play's Data Safety requirements, PaisaSet
+declares:</p>
+<ul>
+<li><strong>Data Collected:</strong> None (0 data types collected).</li>
+<li><strong>Data Shared:</strong> None (0 data types shared).</li>
+<li><strong>Encryption in Transit:</strong> Not applicable (The app
+performs zero network transmissions).</li>
+<li><strong>User Data Deletion Request:</strong> Handled locally within
+the app via <strong>Settings → Delete All Data</strong> and by
+uninstalling the application.</li>
+</ul>
+<hr />
+<h2 id="11-changes-to-this-privacy-policy">11. Changes to This Privacy
+Policy</h2>
+<p>A3S Digitech may periodically update this Privacy Policy to reflect
+future software enhancements or statutory amendments. Any changes will
+be posted to this repository and noted in official Google Play Store
+application release notes. Since PaisaSet does not collect user contact
+details, users are encouraged to review this policy periodically.</p>
+<hr />
+<h2 id="12-publisher--grievance-contact">12. Publisher &amp; Grievance
+Contact</h2>
+<p>If you have any questions, concerns, or inquiries regarding this
+Privacy Policy or your data security, please contact us:</p>
+<ul>
+<li><strong>Developer &amp; Publisher:</strong> A3S Digitech</li>
+<li><strong>Brand / Division:</strong> A3S Digitech FinTech
+Division</li>
+<li><strong>Grievance &amp; Privacy Officer:</strong> Compliance
+Cell</li>
+<li><strong>Official Email:</strong> <a
+href="mailto:a3sdigitech@gmail.com"><span>a3sdigitech@gmail.com</span></a></li>
+<li><strong>Official Codebase:</strong> <a
+href="https://github.com/shahnawazrathod86/ghar-ka-budget"><span>https://github.com/shahnawazrathod86/ghar-ka-budget</span></a></li>
+<li><strong>Jurisdiction:</strong> Republic of India (Bharat)</li>
+</ul>
+</div></section>
+</main>
+<footer><div class="wrap">
+<div class="cols">
+<div><h4>A3S DIGITECH</h4>Software, websites and mobile apps, built in India.<br>Ahmedabad, Gujarat, India<br><a href="mailto:a3sdigitech@gmail.com" style="display:inline">a3sdigitech@gmail.com</a></div>
+<div><h4>Company</h4><a href="about.html">About us</a><a href="services.html">Services</a><a href="apps.html">Our apps</a><a href="contact.html">Contact</a></div>
+<div><h4>Legal</h4><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></div>
+<div><h4>App privacy policies</h4><a href="https://shahnawazrathod86.github.io/aarogya-connect-privacy/">Aarogya Connect</a><a href="lumelo-privacy.html">Lumelo</a><a href="paisaset-privacy.html">PaisaSet</a><a href="dutybook-privacy.html">DutyBook</a></div>
+</div>
+<div class="bottom">&copy; 2026 A3S DIGITECH. All rights reserved.</div>
+</div></footer>
+</body>
+</html>
