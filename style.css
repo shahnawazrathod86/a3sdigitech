@@ -148,6 +148,10 @@ h3{margin:0 0 8px;font-size:20px;font-weight:600}
 .tag{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;padding:4px 12px;border-radius:99px;background:rgba(4,12,28,.62);border:1px solid var(--line2);color:var(--ink);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
 .tag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--dot,#97aac6)}
 .tag.test{--dot:#ffc24d}.tag.soon{--dot:#5aa9ff}.tag.dev{--dot:#a68bff}.tag.live{--dot:#3ddc84}
+.app .thumb-link{position:absolute;inset:0;z-index:3;border-radius:inherit}
+.app .thumb-link:focus-visible{outline:3px solid #fff;outline-offset:-6px}
+.app .btn.play{align-self:flex-start;margin:6px 0 2px;padding:12px 20px}
+.app .btn.play svg{flex:none}
 ul.plain{padding-left:18px;color:var(--mute);margin:2px 0 0;font-size:14.5px}
 ul.plain li{margin:2px 0}
 
